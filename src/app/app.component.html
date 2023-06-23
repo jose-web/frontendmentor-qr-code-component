@@ -1,3 +1,4 @@
 <main>
-  <qr-code></qr-code>
+  <qr-code [textQR]="textQR"></qr-code>
+  <input id="qr-text" type="text" (keyup)="changeQR($event)" [value]="textQR">
 </main>

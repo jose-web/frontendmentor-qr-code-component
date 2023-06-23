@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'frontendmentor-qr-code-component';
+
+  textQR = 'https://www.frontendmentor.io/profile/jose-web'
+  
+  changeQR(event:any){
+    this.textQR = event.target.value
+  }
 }
