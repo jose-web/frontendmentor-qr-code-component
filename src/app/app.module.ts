@@ -3,12 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+// COMPONENTS
+import { QrCodeComponent } from 'src/components/qr-code/qr-code.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
+    // COMPONENTS
+    QrCodeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

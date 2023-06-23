@@ -1,0 +1,21 @@
+.qr-code{
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem black;
+
+    display: flex;
+    flex-direction: column;
+    max-width: 15rem;
+    text-align: center;
+
+    b,sub{
+        margin-top: 0.5rem
+    }
+
+    sub{
+        color: #828282;
+        font-size: 0.7rem;
+    }
+}
