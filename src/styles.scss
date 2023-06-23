@@ -7,3 +7,9 @@
 body {
     background-image: linear-gradient(#675eeb, #ca6bd2);
 }
+
+.qrcode canvas{
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 0.5rem;
+}
